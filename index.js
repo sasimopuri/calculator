@@ -4,8 +4,7 @@ let dexp=document.querySelector(".exp");
 let dans=document.querySelector(".ans")
 function btn(val){
     console.log(val.innerHTML);
-    
-         exp+=val.innerHTML
+        exp+=val.innerHTML
         dexp.innerHTML=exp
     
 }
