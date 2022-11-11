@@ -25,3 +25,8 @@ function clearr(){
     console.log('da');
 }
 
+function backk()
+{
+    exp=exp.slice(0,-1);
+    dexp.innerHTML=exp
+}
